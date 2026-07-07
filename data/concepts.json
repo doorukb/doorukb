@@ -1,0 +1,38 @@
+{
+  "config": {
+    "user": "doorukb",
+    "exclude_languages": ["Makefile", "Dockerfile", "Shell"],
+    "min_slice_pct": 2.0,
+    "exclude_repos": ["doorukb"]
+  },
+  "concepts": {
+    "Machine Learning & Computer Vision": [
+      "image-segmentation",
+      "multilayer-perceptron",
+      "pytorch-multilayer-perceptron",
+      "smart-syllabus-scanner",
+      "seam-carving"
+    ],
+    "Systems Programming": [
+      "multicore-task-scheduler",
+      "flat-file-database-engine",
+      "baby-garbage-collector"
+    ],
+    "Algorithms & Optimization": [
+      "seam-carving",
+      "random-maze-generator",
+      "image-segmentation"
+    ],
+    "Stochastic & Generative Modeling": [
+      "markov-music-engine",
+      "markov-text-engine"
+    ],
+    "Simulation & Developer Tooling": [
+      "drone-fleet-dispatch",
+      "local-llm-advisor"
+    ],
+    "Interpreters & Language Design": [
+      "peg-interpreter"
+    ]
+  }
+}
