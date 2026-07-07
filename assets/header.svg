@@ -37,8 +37,8 @@
       <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#22d3ee" stop-opacity="0.55"/>
     </linearGradient>
-    <clipPath id="type1"><rect x="172" y="66" width="0" height="22"/></clipPath>
-    <clipPath id="type2"><rect x="172" y="130" width="0" height="22"/></clipPath>
+    <clipPath id="type1"><rect x="184" y="66" width="0" height="22"/></clipPath>
+    <clipPath id="type2"><rect x="184" y="130" width="0" height="22"/></clipPath>
   </defs>
 
   <!-- window -->
@@ -57,20 +57,20 @@
   <!-- $ whoami -->
   <text class="mono" x="34" y="82"><tspan class="host">doruk@umass</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$</tspan></text>
   <g clip-path="url(#type1)">
-    <text class="mono cmd" x="172" y="82">whoami</text>
+    <text class="mono cmd" x="184" y="82">whoami</text>
   </g>
   <text class="mono name fade" x="34" y="114" style="animation-delay: 1.5s">Doruk Bilge<tspan class="out" font-weight="400" font-size="15px">&#160;&#160;&#183;&#160;&#160;CS &#215; Applied Math @ UMass Amherst&#160;&#160;&#183;&#160;&#160;minor in Business</tspan></text>
 
   <!-- $ cat focus.txt -->
   <text class="mono fade" x="34" y="146" style="animation-delay: 2.3s"><tspan class="host">doruk@umass</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$</tspan></text>
   <g clip-path="url(#type2)">
-    <text class="mono cmd" x="172" y="146">cat focus.txt</text>
+    <text class="mono cmd" x="184" y="146">cat focus.txt</text>
   </g>
   <text class="mono out fade" x="34" y="178" style="animation-delay: 3.7s">building from scratch: ml &#38; computer vision &#183; systems in C &#183; interpreters &#183; generative engines</text>
 
   <!-- final prompt -->
   <g class="fade" style="animation-delay: 4.3s">
     <text class="mono" x="34" y="212"><tspan class="host">doruk@umass</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$</tspan></text>
-    <rect class="cursor" x="174" y="198" width="9" height="17" fill="#e6edf3"/>
+    <rect class="cursor" x="186" y="198" width="9" height="17" fill="#e6edf3"/>
   </g>
 </svg>

@@ -28,13 +28,13 @@
   <path class="seg" d="M 76.95 201.63 A 96 96 0 0 1 86.97 129.81" pathLength="100" fill="none" stroke="#8b949e" stroke-width="30" style="animation-delay:0.12s"/>
   <path class="seg" d="M 89.60 125.53 A 96 96 0 0 1 142.56 86.00" pathLength="100" fill="none" stroke="#3178c6" stroke-width="30" style="animation-delay:0.24s"/>
   <path class="seg" d="M 147.41 84.69 A 96 96 0 0 1 160.56 82.47" pathLength="100" fill="none" stroke="#e34c26" stroke-width="30" style="animation-delay:0.36s"/>
-  <path class="seg" d="M 165.57 82.10 A 96 96 0 0 1 167.49 82.03" pathLength="100" fill="none" stroke="#6e7681" stroke-width="30" style="animation-delay:0.48s"/>
+  <path class="seg" d="M 165.57 82.10 A 96 96 0 0 1 167.49 82.03" pathLength="100" fill="none" stroke="#484f58" stroke-width="30" style="animation-delay:0.48s"/>
   <text class="big fade" x="170" y="176" text-anchor="middle" style="animation-delay:0.5s">14</text>
   <text class="sub fade" x="170" y="196" text-anchor="middle" style="animation-delay:0.5s">repos &#183; 580 KB</text>
   <g class="fade" style="animation-delay:0.15s"><circle cx="360" cy="88" r="6" fill="#3572A5"/><text class="lbl" x="376" y="92">Python</text><text class="pct" x="510" y="92" text-anchor="end">70.6%</text></g>
   <g class="fade" style="animation-delay:0.25s"><circle cx="360" cy="118" r="6" fill="#8b949e"/><text class="lbl" x="376" y="122">C</text><text class="pct" x="510" y="122" text-anchor="end">13.2%</text></g>
   <g class="fade" style="animation-delay:0.35s"><circle cx="360" cy="148" r="6" fill="#3178c6"/><text class="lbl" x="376" y="152">TypeScript</text><text class="pct" x="510" y="152" text-anchor="end">12.0%</text></g>
   <g class="fade" style="animation-delay:0.45s"><circle cx="360" cy="178" r="6" fill="#e34c26"/><text class="lbl" x="376" y="182">HTML</text><text class="pct" x="510" y="182" text-anchor="end">3.0%</text></g>
-  <g class="fade" style="animation-delay:0.55s"><circle cx="360" cy="208" r="6" fill="#6e7681"/><text class="lbl" x="376" y="212">Other</text><text class="pct" x="510" y="212" text-anchor="end">1.2%</text></g>
+  <g class="fade" style="animation-delay:0.55s"><circle cx="360" cy="208" r="6" fill="#484f58"/><text class="lbl" x="376" y="212">Other</text><text class="pct" x="510" y="212" text-anchor="end">1.2%</text></g>
   <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-07-07</text>
 </svg>

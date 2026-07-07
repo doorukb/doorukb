@@ -60,6 +60,12 @@ LANG_COLORS = {
 }
 FALLBACK_COLORS = ["#22d3ee", "#a78bfa", "#f778ba", "#ffa657", "#7ee787"]
 
+# Per-theme overrides so adjacent grays stay distinguishable on both themes.
+LANG_COLOR_OVERRIDES = {
+    "dark": {"Other": "#484f58"},
+    "light": {"C": "#555555", "Other": "#afb8c1"},
+}
+
 THEMES = {
     "dark": {
         "bg": "#0d1117",
@@ -169,7 +175,10 @@ def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def lang_color(lang: str, i: int) -> str:
+def lang_color(lang: str, i: int, theme: str) -> str:
+    override = LANG_COLOR_OVERRIDES.get(theme, {}).get(lang)
+    if override:
+        return override
     return LANG_COLORS.get(lang, FALLBACK_COLORS[i % len(FALLBACK_COLORS)])
 
 
@@ -244,7 +253,7 @@ def render_langs(slices, grand, n_repos, theme):
             d = arc_path(cx, cy, r, a0, a1)
             parts.append(
                 f'<path class="seg" d="{d}" pathLength="100" fill="none" '
-                f'stroke="{lang_color(lang, i)}" stroke-width="{stroke}" '
+                f'stroke="{lang_color(lang, i, theme)}" stroke-width="{stroke}" '
                 f'style="animation-delay:{delay:.2f}s"/>'
             )
         angle += span
@@ -270,7 +279,7 @@ def render_langs(slices, grand, n_repos, theme):
         d = 0.15 + i * 0.1
         parts.append(
             f'<g class="fade" style="animation-delay:{d:.2f}s">'
-            f'<circle cx="{x}" cy="{y - 4}" r="6" fill="{lang_color(lang, i)}"/>'
+            f'<circle cx="{x}" cy="{y - 4}" r="6" fill="{lang_color(lang, i, theme)}"/>'
             f'<text class="lbl" x="{x + 16}" y="{y}">{esc(lang)}</text>'
             f'<text class="pct" x="{x + 150}" y="{y}" text-anchor="end">'
             f'{pct:.1f}%</text></g>'
