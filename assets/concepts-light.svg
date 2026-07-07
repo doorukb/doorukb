@@ -1,0 +1,53 @@
+<svg width="780" height="340" viewBox="0 0 780 340"
+     xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    .txt   { font: 600 15px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #1f2328; }
+    .sub   { font: 400 11.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #656d76; }
+    .lbl   { font: 500 12.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #1f2328; }
+    .pct   { font: 600 12.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #656d76; }
+    .big   { font: 700 30px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #1f2328; }
+    
+    .bar {
+      transform: scaleX(0);
+      transform-origin: 274px 0;
+      animation: grow 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .fade { opacity: 0; animation: fadein 0.5s ease-out forwards; }
+    @keyframes fadein { to { opacity: 1; } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="779" height="339" rx="10"
+        fill="#ffffff" stroke="#d0d7de"/>
+  <text class="txt" x="24" y="34">Concepts</text>
+  <text class="sub" x="24" y="52">share of projects touching each area (14 projects, equal vote each)</text>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#8250df"/></linearGradient></defs>
+  <text class="lbl fade" x="24" y="99" style="animation-delay:0.10s">Machine Learning &amp; Computer Vision</text>
+  <rect x="274" y="86" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="86" width="420.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.10s"/>
+  <text class="pct fade" x="708" y="99" style="animation-delay:0.40s">29%</text>
+  <text class="lbl fade" x="24" y="135" style="animation-delay:0.22s">Systems Programming</text>
+  <rect x="274" y="122" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="122" width="315.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.22s"/>
+  <text class="pct fade" x="708" y="135" style="animation-delay:0.52s">21%</text>
+  <text class="lbl fade" x="24" y="171" style="animation-delay:0.34s">Algorithms &amp; Optimization</text>
+  <rect x="274" y="158" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="158" width="210.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.34s"/>
+  <text class="pct fade" x="708" y="171" style="animation-delay:0.64s">14%</text>
+  <text class="lbl fade" x="24" y="207" style="animation-delay:0.46s">Stochastic &amp; Generative Modeling</text>
+  <rect x="274" y="194" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="194" width="210.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.46s"/>
+  <text class="pct fade" x="708" y="207" style="animation-delay:0.76s">14%</text>
+  <text class="lbl fade" x="24" y="243" style="animation-delay:0.58s">Simulation &amp; Developer Tooling</text>
+  <rect x="274" y="230" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="230" width="210.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.58s"/>
+  <text class="pct fade" x="708" y="243" style="animation-delay:0.88s">14%</text>
+  <text class="lbl fade" x="24" y="279" style="animation-delay:0.70s">Interpreters &amp; Language Design</text>
+  <rect x="274" y="266" width="420" height="16" rx="8" fill="#eaeef2"/>
+  <rect class="bar" x="274" y="266" width="105.0" height="16" rx="8" fill="url(#g)" style="animation-delay:0.70s"/>
+  <text class="pct fade" x="708" y="279" style="animation-delay:1.00s">7%</text>
+  <text class="sub" x="756" y="326" text-anchor="end">auto-generated &#183; 2026-07-07</text>
+</svg>
