@@ -1,31 +1,61 @@
 {
-  "generated": "2026-07-07T00:00:00Z",
-  "user": "doorukb",
-  "note": "Provisional snapshot. Repos listed in 'estimated_repos' use approximate byte counts (GitHub API was rate-limited at build time); every value is replaced with exact live API data on the first workflow run.",
-  "estimated_repos": [
-    "peg-interpreter",
-    "multicore-task-scheduler",
-    "seam-carving",
-    "random-maze-generator",
-    "multilayer-perceptron",
-    "image-segmentation",
-    "markov-text-engine",
-    "local-llm-advisor"
-  ],
+  "generated": "2026-07-08T00:01:37Z",
   "repos": {
-    "flat-file-database-engine": { "C": 23541, "Shell": 3617, "Makefile": 315 },
-    "smart-syllabus-scanner": { "Python": 31736, "HTML": 17185, "Dockerfile": 196 },
-    "baby-garbage-collector": { "C": 28651, "Makefile": 925 },
-    "markov-music-engine": { "Python": 167463, "Dockerfile": 902, "Makefile": 336 },
-    "drone-fleet-dispatch": { "TypeScript": 38241, "HTML": 909 },
-    "pytorch-multilayer-perceptron": { "Python": 81408 },
-    "peg-interpreter": { "TypeScript": 33160, "PEG.js": 6400, "JavaScript": 440 },
-    "multicore-task-scheduler": { "C": 26000 },
-    "seam-carving": { "Python": 20000 },
-    "random-maze-generator": { "Python": 12000 },
-    "multilayer-perceptron": { "Python": 40000 },
-    "image-segmentation": { "Python": 22000 },
-    "markov-text-engine": { "Python": 25000 },
-    "local-llm-advisor": { "Python": 20000 }
-  }
+    "baby-garbage-collector": {
+      "C": 28651,
+      "Makefile": 925
+    },
+    "drone-fleet-dispatch": {
+      "HTML": 909,
+      "TypeScript": 38241
+    },
+    "flat-file-database-engine": {
+      "C": 23541,
+      "Makefile": 315,
+      "Shell": 3617
+    },
+    "image-segmentation": {
+      "Python": 60235
+    },
+    "local-llm-advisor": {
+      "PowerShell": 4823,
+      "Python": 73697,
+      "Shell": 3087
+    },
+    "markov-music-engine": {
+      "Dockerfile": 902,
+      "Makefile": 336,
+      "Python": 167463
+    },
+    "markov-text-engine": {
+      "Python": 23234
+    },
+    "multicore-task-scheduler": {
+      "C": 79767,
+      "Makefile": 374
+    },
+    "multilayer-perceptron": {
+      "Python": 50366
+    },
+    "peg-interpreter": {
+      "JavaScript": 420,
+      "PEG.js": 6251,
+      "TypeScript": 32485
+    },
+    "pytorch-multilayer-perceptron": {
+      "Python": 81408
+    },
+    "random-maze-generator": {
+      "Python": 16794
+    },
+    "seam-carving": {
+      "Python": 32952
+    },
+    "smart-syllabus-scanner": {
+      "Dockerfile": 196,
+      "HTML": 17185,
+      "Python": 31736
+    }
+  },
+  "user": "doorukb"
 }
