@@ -1,7 +1,3 @@
-> *"Everything I care about is an optimization problem- the only question is whether I'm solving it or living it."*
-
-<br>
-
 ## Live stats pulled from my repositories every Monday : 
 
 <div align="center">
