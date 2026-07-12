@@ -36,5 +36,5 @@
   <g class="fade" style="animation-delay:0.35s"><circle cx="360" cy="148" r="6" fill="#3178c6"/><text class="lbl" x="376" y="152">TypeScript</text><text class="pct" x="510" y="152" text-anchor="end">9.2%</text></g>
   <g class="fade" style="animation-delay:0.45s"><circle cx="360" cy="178" r="6" fill="#e34c26"/><text class="lbl" x="376" y="182">HTML</text><text class="pct" x="510" y="182" text-anchor="end">2.3%</text></g>
   <g class="fade" style="animation-delay:0.55s"><circle cx="360" cy="208" r="6" fill="#484f58"/><text class="lbl" x="376" y="212">Other</text><text class="pct" x="510" y="212" text-anchor="end">1.5%</text></g>
-  <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-07-08</text>
+  <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-07-12</text>
 </svg>
