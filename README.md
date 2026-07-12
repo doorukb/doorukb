@@ -3,16 +3,9 @@
     <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
     <img src="assets/langs-light.svg" alt="Languages by bytes of code across public repositories" width="780">
   </picture>
-  <br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/concepts-dark.svg">
-    <img src="assets/concepts-light.svg" alt="Primary concepts by share of projects" width="780">
-  </picture>
 </div>
 
 <br>
-
-## Toolbox
 
 <div align="center">
 
