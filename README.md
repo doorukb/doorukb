@@ -1,5 +1,3 @@
-## Live stats pulled from my repositories every Monday : 
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
