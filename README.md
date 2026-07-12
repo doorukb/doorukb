@@ -1,18 +1,8 @@
-<div align="center">
-  <img src="assets/header.svg" alt="doruk@umass:~$ whoami — Doruk Bilge, CS × Applied Math @ UMass Amherst" width="840">
-</div>
-
-<br>
-
-I like problems where the interesting part lives *underneath* the library call- so most of what I build, I build from scratch.
-
 > *"Everything I care about is an optimization problem- the only question is whether I'm solving it or living it."*
 
 <br>
 
-## What the code says
-
-Live stats pulled from my repositories every Monday and haves the SVGs re-rendered : 
+## Live stats pulled from my repositories every Monday : 
 
 <div align="center">
   <picture>
