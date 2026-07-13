@@ -6,6 +6,12 @@
 </div>
 
 <br>
+<div align="center">
+<em>
+Everything I care about is an optimization problem. The only question is whether I'm solving it or living it.
+</em>
+</div>
+<br>
 
 <div align="center">
 
