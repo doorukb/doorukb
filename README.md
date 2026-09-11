@@ -5,6 +5,16 @@
   </picture>
 </div>
 
+<div align="center">
+
+[![Refresh status](https://img.shields.io/github/actions/workflow/status/doorukb/doorukb/refresh-charts.yml?label=charts%20refresh&style=flat-square)](https://github.com/doorukb/doorukb/actions/workflows/refresh-charts.yml)
+&nbsp;
+[![Refresh now](https://img.shields.io/badge/refresh-run%20now-blue?style=flat-square&logo=github)](https://github.com/doorukb/doorukb/actions/workflows/refresh-charts.yml)
+
+<sub>Charts refresh automatically every 24 hours (see the generation date printed on each chart). Click "refresh · run now" above, then use the "Run workflow" button to update on demand.</sub>
+
+</div>
+
 <br>
 <div align="center">
 <em>
