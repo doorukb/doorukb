@@ -12,8 +12,9 @@ all public (non-fork) repositories, and renders four theme-aware SVGs:
 Concept weights come from data/concepts.json: every repo contributes one
 vote, split equally across the concepts it is mapped to.
 
-Runs on the Python standard library only. Used by the weekly GitHub Action
-(.github/workflows/refresh-charts.yml), and runnable locally:
+Runs on the Python standard library only. Used by the daily GitHub Action
+(.github/workflows/refresh-charts.yml), which can also be triggered manually
+from the Actions tab, and runnable locally:
 
     python scripts/build_charts.py             # fetch live data
     python scripts/build_charts.py --offline   # reuse data/languages.json
