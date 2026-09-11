@@ -1,26 +1,8 @@
 {
-  "generated": "2026-09-07T06:51:39Z",
+  "generated": "2026-09-11T20:15:05Z",
   "repos": {
-    "baby-garbage-collector": {
-      "C": 28651,
-      "Makefile": 925
-    },
-    "drone-fleet-dispatch": {
-      "HTML": 909,
-      "TypeScript": 38241
-    },
-    "flat-file-database-engine": {
-      "C": 23541,
-      "Makefile": 315,
-      "Shell": 3617
-    },
     "image-segmentation": {
       "Python": 60235
-    },
-    "local-llm-advisor": {
-      "PowerShell": 4823,
-      "Python": 73697,
-      "Shell": 3087
     },
     "markov-music-engine": {
       "Dockerfile": 902,
@@ -34,16 +16,10 @@
       "C": 79767,
       "Makefile": 374
     },
-    "multilayer-perceptron": {
-      "Python": 50366
-    },
-    "peg-interpreter": {
-      "JavaScript": 420,
-      "PEG.js": 6251,
-      "TypeScript": 32485
-    },
-    "pytorch-multilayer-perceptron": {
-      "Python": 81408
+    "pick-your-local-llm": {
+      "PowerShell": 4823,
+      "Python": 73697,
+      "Shell": 3087
     },
     "random-maze-generator": {
       "Python": 16794
