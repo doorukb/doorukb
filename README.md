@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
-    <img src="assets/langs-light.svg" alt="Languages by bytes of code across public repositories" width="780">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg?v=20260911202316">
+    <img src="assets/langs-light.svg?v=20260911202316" alt="Languages by bytes of code across public repositories" width="780">
   </picture>
 </div>
 

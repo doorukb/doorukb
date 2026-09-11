@@ -27,6 +27,7 @@ import datetime
 import json
 import math
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -36,6 +37,7 @@ DATA_DIR = os.path.join(ROOT, "data")
 ASSETS_DIR = os.path.join(ROOT, "assets")
 SNAPSHOT_PATH = os.path.join(DATA_DIR, "languages.json")
 CONCEPTS_PATH = os.path.join(DATA_DIR, "concepts.json")
+README_PATH = os.path.join(ROOT, "README.md")
 
 API = "https://api.github.com"
 
@@ -357,6 +359,34 @@ def render_concepts(weights, mapped, theme):
 
 
 # --------------------------------------------------------------------------
+# README cache-busting
+# --------------------------------------------------------------------------
+
+def bust_readme_cache(version: str):
+    """Stamp a ?v=<version> query on the langs chart images in README.md.
+
+    GitHub serves README images straight from raw.githubusercontent.com,
+    which is aggressively CDN- and browser-cached by URL. Without a
+    changing query string, a freshly-committed SVG can keep showing the
+    old chart until the cache expires, so every run rewrites the version
+    to force a fresh fetch.
+    """
+    if not os.path.exists(README_PATH):
+        return
+    with open(README_PATH, encoding="utf-8") as f:
+        text = f.read()
+    new_text = re.sub(
+        r"(assets/langs-(?:dark|light)\.svg)(?:\?v=[^\"'\s]*)?",
+        lambda m: f"{m.group(1)}?v={version}",
+        text,
+    )
+    if new_text != text:
+        with open(README_PATH, "w", encoding="utf-8") as f:
+            f.write(new_text)
+        print(f"bumped README chart cache-bust to v={version}")
+
+
+# --------------------------------------------------------------------------
 # Main
 # --------------------------------------------------------------------------
 
@@ -416,6 +446,9 @@ def main():
             with open(path, "w", encoding="utf-8") as f:
                 f.write(svg)
             print(f"wrote {os.path.relpath(path, ROOT)}")
+
+    version = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M%S")
+    bust_readme_cache(version)
 
     print("\nlanguage share:")
     for lang, nbytes, pct in slices:
