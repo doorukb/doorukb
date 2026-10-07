@@ -11,16 +11,8 @@
 &nbsp;
 [![Refresh now](https://img.shields.io/badge/refresh-run%20now-blue?style=flat-square&logo=github)](https://github.com/doorukb/doorukb/actions/workflows/refresh-charts.yml)
 
-<sub>Charts refresh automatically every 24 hours (see the generation date printed on each chart). Click "refresh · run now" above, then use the "Run workflow" button to update on demand.</sub>
-
 </div>
 
-<br>
-<div align="center">
-<em>
-Everything I care about is an optimization problem. The only question is whether I'm solving it or living it.
-</em>
-</div>
 <br>
 
 <div align="center">
