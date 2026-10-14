@@ -1,36 +1,12 @@
 {
-  "generated": "2026-10-14T12:03:29Z",
+  "generated": "2026-10-14T15:10:16Z",
   "repos": {
-    "image-segmentation": {
-      "Python": 60235
-    },
-    "markov-music-engine": {
-      "Dockerfile": 902,
-      "Makefile": 336,
-      "Python": 167463
-    },
-    "markov-text-engine": {
-      "Python": 23234
-    },
     "multicore-task-scheduler": {
       "C": 79767,
       "Makefile": 374
     },
-    "pick-your-local-llm": {
-      "PowerShell": 4823,
-      "Python": 73697,
-      "Shell": 3087
-    },
     "random-maze-generator": {
       "Python": 16794
-    },
-    "seam-carving": {
-      "Python": 32952
-    },
-    "smart-syllabus-scanner": {
-      "Dockerfile": 196,
-      "HTML": 17185,
-      "Python": 31736
     }
   },
   "user": "doorukb"
