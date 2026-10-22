@@ -30,5 +30,5 @@
   <text class="sub fade" x="170" y="196" text-anchor="middle" style="animation-delay:0.5s">repos &#183; 94 KB</text>
   <g class="fade" style="animation-delay:0.15s"><circle cx="360" cy="88" r="6" fill="#8b949e"/><text class="lbl" x="376" y="92">C</text><text class="pct" x="510" y="92" text-anchor="end">82.6%</text></g>
   <g class="fade" style="animation-delay:0.25s"><circle cx="360" cy="118" r="6" fill="#3572A5"/><text class="lbl" x="376" y="122">Python</text><text class="pct" x="510" y="122" text-anchor="end">17.4%</text></g>
-  <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-10-21</text>
+  <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-10-22</text>
 </svg>
