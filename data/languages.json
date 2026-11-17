@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T16:11:56Z",
+  "generated": "2026-11-17T22:49:37Z",
   "repos": {
     "Despatch": {
       "CSS": 17339,
@@ -8,6 +8,10 @@
       "Makefile": 2181,
       "Python": 310864,
       "TypeScript": 121709
+    },
+    "SunSight-demo": {
+      "Jupyter Notebook": 6475054,
+      "Python": 174260
     },
     "multicore-task-scheduler": {
       "C": 79767,

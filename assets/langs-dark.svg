@@ -23,17 +23,14 @@
   <rect x="0.5" y="0.5" width="779" height="319" rx="10"
         fill="#0d1117" stroke="#30363d"/>
   <text class="txt" x="24" y="34">Languages</text>
-  <text class="sub" x="24" y="52">by bytes of code, across 2 public repositories</text>
-  <path class="seg" d="M 172.51 82.03 A 96 96 0 1 1 122.99 261.70" pathLength="100" fill="none" stroke="#3572A5" stroke-width="30" style="animation-delay:0.00s"/>
-  <path class="seg" d="M 118.68 259.13 A 96 96 0 0 1 80.90 142.26" pathLength="100" fill="none" stroke="#3178c6" stroke-width="30" style="animation-delay:0.12s"/>
-  <path class="seg" d="M 82.89 137.65 A 96 96 0 0 1 146.70 84.87" pathLength="100" fill="none" stroke="#8b949e" stroke-width="30" style="animation-delay:0.24s"/>
-  <path class="seg" d="M 151.60 83.78 A 96 96 0 0 1 166.16 82.08" pathLength="100" fill="none" stroke="#663399" stroke-width="30" style="animation-delay:0.36s"/>
-  <text class="big fade" x="170" y="176" text-anchor="middle" style="animation-delay:0.5s">2</text>
-  <text class="sub fade" x="170" y="196" text-anchor="middle" style="animation-delay:0.5s">repos &#183; 518 KB</text>
-  <g class="fade" style="animation-delay:0.15s"><circle cx="360" cy="88" r="6" fill="#3572A5"/><text class="lbl" x="376" y="92">Python</text><text class="pct" x="510" y="92" text-anchor="end">58.6%</text></g>
-  <g class="fade" style="animation-delay:0.25s"><circle cx="360" cy="118" r="6" fill="#3178c6"/><text class="lbl" x="376" y="122">TypeScript</text><text class="pct" x="510" y="122" text-anchor="end">22.9%</text></g>
-  <g class="fade" style="animation-delay:0.35s"><circle cx="360" cy="148" r="6" fill="#8b949e"/><text class="lbl" x="376" y="152">C</text><text class="pct" x="510" y="152" text-anchor="end">15.0%</text></g>
-  <g class="fade" style="animation-delay:0.45s"><circle cx="360" cy="178" r="6" fill="#663399"/><text class="lbl" x="376" y="182">CSS</text><text class="pct" x="510" y="182" text-anchor="end">3.3%</text></g>
-  <g class="fade" style="animation-delay:0.55s"><circle cx="360" cy="208" r="6" fill="#484f58"/><text class="lbl" x="376" y="212">Other</text><text class="pct" x="510" y="212" text-anchor="end">0.2%</text></g>
+  <text class="sub" x="24" y="52">by bytes of code, across 3 public repositories</text>
+  <path class="seg" d="M 172.51 82.03 A 96 96 0 1 1 112.42 101.18" pathLength="100" fill="none" stroke="#DA5B0B" stroke-width="30" style="animation-delay:0.00s"/>
+  <path class="seg" d="M 116.52 98.27 A 96 96 0 0 1 149.17 84.29" pathLength="100" fill="none" stroke="#3572A5" stroke-width="30" style="animation-delay:0.12s"/>
+  <path class="seg" d="M 154.11 83.32 A 96 96 0 0 1 167.49 82.03" pathLength="100" fill="none" stroke="#484f58" stroke-width="30" style="animation-delay:0.24s"/>
+  <text class="big fade" x="170" y="176" text-anchor="middle" style="animation-delay:0.5s">3</text>
+  <text class="sub fade" x="170" y="196" text-anchor="middle" style="animation-delay:0.5s">repos &#183; 6.8 MB</text>
+  <g class="fade" style="animation-delay:0.15s"><circle cx="360" cy="88" r="6" fill="#DA5B0B"/><text class="lbl" x="376" y="92">Jupyter Notebook</text><text class="pct" x="510" y="92" text-anchor="end">90.2%</text></g>
+  <g class="fade" style="animation-delay:0.25s"><circle cx="360" cy="118" r="6" fill="#3572A5"/><text class="lbl" x="376" y="122">Python</text><text class="pct" x="510" y="122" text-anchor="end">6.8%</text></g>
+  <g class="fade" style="animation-delay:0.35s"><circle cx="360" cy="148" r="6" fill="#484f58"/><text class="lbl" x="376" y="152">Other</text><text class="pct" x="510" y="152" text-anchor="end">3.1%</text></g>
   <text class="sub" x="756" y="304" text-anchor="end">auto-generated &#183; 2026-11-17</text>
 </svg>
