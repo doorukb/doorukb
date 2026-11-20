@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T15:52:27Z",
+  "generated": "2026-11-20T15:35:34Z",
   "repos": {
     "Despatch": {
       "CSS": 17339,
@@ -9,10 +9,7 @@
       "Python": 310864,
       "TypeScript": 121709
     },
-    "SunSight-copy": {
-      "Python": 261630
-    },
-    "SunSight-demo": {
+    "SunSight-extension": {
       "Jupyter Notebook": 3446198,
       "Python": 111200
     },
